@@ -22,17 +22,31 @@ h1{
 }
 
 main{
-    width: 1200px;
-    background-color: white;
+    width: 1200px;    
     margin: 2.5rem auto;    
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-collapse: separate;
 }
 
+h1{
+    font-weight: 600;
+    font-size: 2em;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
 .options{
     padding: 1rem 3rem .5rem;
     margin-bottom: 2px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-collapse: separate;
 }
 
 .bg-blue{
@@ -56,4 +70,23 @@ main{
 .button.bg-white{
     color: #dadee1;
     border-color: #dadee1;
+}
+
+.task-program{
+    list-style-type: "▼  ";
+    background-color: white;
+    padding: 3rem 6rem; 
+    line-height: 2rem;   
+}
+
+.single-task{
+    list-style-type: "✅ ";
+    margin-bottom: 2rem;
+}
+
+.tag{
+    color: white;
+    font-size: .60em;
+    padding: .75em 1.2em;
+    border-radius: 10px;
 }
