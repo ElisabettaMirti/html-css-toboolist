@@ -20,3 +20,40 @@ h1{
     line-height: 3rem;
     vertical-align: top;
 }
+
+main{
+    width: 1200px;
+    background-color: white;
+    margin: 2.5rem auto;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-collapse: separate;
+}
+
+.options{
+    padding: 1rem 3rem .5rem;
+    margin-bottom: 2px;
+}
+
+.bg-blue{
+    background-color: #46acf0;
+    border: 0;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.font-white{
+    color: white;
+}
+
+.button{
+    border-radius: 5px;
+    padding: .5em .75em;
+}
+
+.button.bg-white{
+    color: #dadee1;
+    border-color: #dadee1;
+}
